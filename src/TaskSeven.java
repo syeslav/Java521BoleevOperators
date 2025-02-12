@@ -16,10 +16,8 @@ public class TaskSeven {
 
         if (probablePrime == true){
             System.out.println("Число - " + num + " простое");
-        }else{
+        }else
             System.out.println("Число - " + num + " сложное");
         }
-
     }
-}
 

@@ -13,7 +13,6 @@ public class TaskFour {
             System.out.println(number + " x " + i + " = " + b);
 
             }
-            //System.out.println(number);
 
         }
 

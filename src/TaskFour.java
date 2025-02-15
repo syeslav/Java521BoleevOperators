@@ -9,11 +9,11 @@ public class TaskFour {
         int number = scanner.nextInt();
 
         for (int i = 1; i <= 10; i++) {
-            int b = number * i;
-            System.out.println(number + " x " + i + " = " + b);
-
-            }
+            int result = number * i;
+            System.out.println(number + " x " + i + " = " + result);
 
         }
 
     }
+
+}

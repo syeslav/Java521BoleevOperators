@@ -19,10 +19,10 @@ public class TaskSeven {
         BigInteger bigInteger = BigInteger.valueOf(integer);
         boolean probablePrime = bigInteger.isProbablePrime((int) Math.log(integer));
 
-        if (probablePrime == true){
+        if (probablePrime == true) {
             System.out.println("Число - " + num + " простое");
-        }else
+        } else
             System.out.println("Число - " + num + " сложное");
-        }
     }
+}
 

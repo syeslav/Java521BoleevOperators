@@ -16,7 +16,7 @@ public class TaskThree {
         System.out.println(getFactorial(factorial));
     }
 
-    public static int getFactorial(int f) {
+    static int getFactorial(int f) {
         int result = 1;
         for (int i = 1; i <= f; i++) {
             result = result * i;

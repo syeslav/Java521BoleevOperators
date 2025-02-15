@@ -10,6 +10,11 @@ public class TaskSeven {
         System.out.print("Введите число: ");
         int num = scanner.nextInt();
 
+        if (num < 0) {
+            System.out.println("Ошибка");
+            System.exit(0);
+        }
+
         Integer integer = num;
         BigInteger bigInteger = BigInteger.valueOf(integer);
         boolean probablePrime = bigInteger.isProbablePrime((int) Math.log(integer));

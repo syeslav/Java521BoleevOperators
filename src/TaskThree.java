@@ -8,6 +8,11 @@ public class TaskThree {
         System.out.print("Введите число: ");
         int factorial = scanner.nextInt();
 
+        if (factorial < 0) {
+            System.out.println("Ошибка");
+            System.exit(0);
+        }
+
         System.out.println(getFactorial(factorial));
     }
 
